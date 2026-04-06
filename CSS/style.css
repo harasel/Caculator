@@ -1,0 +1,118 @@
+*{
+  padding: 0;
+  margin: 0;
+}    
+
+body{
+  background-image: url('CC.jpg');
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
+
+  font-family: Arial, sans-serif;
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+#container {
+  width: 1200px;
+  height: 550px;
+  /* background-image: url('CC.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover; */
+  margin: 150px auto 0 auto;
+}
+
+#calculator{
+  width: 320px;
+  height: 510px;
+  background: #fff;
+  margin-left: 650px;
+  top: 25px;
+  position: relative;
+  border-radius: 20px;
+  /* box-shadow: 0 0 10px 0 rgb(15, 155, 255,0.4); */
+  overflow: hidden;
+
+  Box-Shadow: 0 0 10px 0 rgba(5, 245, 245, 0),
+  inset -5px -5px 10px rgba(3, 3, 3, 0.5),
+  inset 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+#result{
+  height: 130px;
+  background: #9ba0aa;
+  padding: 35px 20px 10px 20px;
+  Box-Shadow: 0 0 10px 0 rgba(5, 245, 245, 0),
+  inset -10px -10px 10px rgba(48, 44, 44, 0.5),
+  inset 10px 10px 10px rgba(0, 0, 0, 0.5);
+  ;
+}
+
+#resultBox{
+  height: 80px;
+  background: #000;
+  border-radius: 10px;
+  padding: 10px 20px 12px 20px;
+}
+
+#history{
+  background: #555353;
+  height: 20px;
+  text-align: right;
+  color: #000;
+  font-size: 12px;
+  font-weight: bold;
+  border-radius: 5px 5px 0 0;
+  padding-right: 5px;
+}
+
+#output{
+  height: 35px;
+  background: #555353;
+  text-align: right;
+  color: #000;
+  font-size: 27px;
+  font-weight: bold;
+  border-radius: 0 0 5px 5px;
+  padding-right: 5px;
+}
+
+#keyboard{
+  height: 380px;
+  padding: 30px 10px 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.oparator, .number, .empty{
+  width: 66px;
+  height: 50px;
+  border-radius: 15px;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.number, .empty{
+  background: #7A7C85;
+  color: #fff;
+  Box-Shadow: -5px 0px 10px 0 rgba(0, 10, 10, 0.603);
+}
+
+.oparator{
+  background: #2B2A67;
+  color: #fff;
+  Box-Shadow: -5px 0px 10px 0 rgba(0, 10, 10, 0.603);
+}
+
+button:nth-child(1){
+  background: #D5073B;
+}
+
+p{
+  margin: 0;
+}
